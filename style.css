@@ -1,5 +1,5 @@
 body{
-   background-color: cyan;
+   background-color: rgb(212, 250, 0);
    font-family:bai jamjuree ;
 }
 
@@ -9,6 +9,11 @@ body{
 
 .cartao{ 
    margin:1rem 1rem ;
+   background-color: rgba(0, 238, 255, 0.541);
+   height: 20rem;
+   flex-grow: 1;
+  flex-basis: calc(33% - 6rem);
+   
 }
 
 footer{
