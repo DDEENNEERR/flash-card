@@ -52,15 +52,18 @@ footer p {
    margin: 0.6rem;
    border-radius: 0.6rem;
    font-size: 1vw;
+   backface-visibility: hidden;
+
   }
 
  
   .cartao__conteudo__pergunta {
     color: var(--text-color);
     font-weight: 500;
+
   }
 
-  .cartao__conteudo__resposta {
+  .cartao__conteudo__resposta{
     color:var(--card-back-color);
     font-weight: 700;
   }
@@ -69,4 +72,10 @@ footer p {
 
   transform:  rotateY(180deg);
   
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta{
+  backface-visibility: hidden;
+
 }
