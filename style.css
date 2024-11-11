@@ -20,7 +20,7 @@ body{
   flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo h3 {
+.cartao__conteudo {
   text-align: center;
   background-color: var(--card-front-color);
   height: 100%;
@@ -56,6 +56,12 @@ footer p {
 
   }
 
+.cartao__conteudo p{
+  margin-top: 1res;
+  padding: 2res;
+  margin-top: 4res;
+}
+
   .cartao__conteudo__pergunta {
     color: var(--text-color);
     font-weight: 500;
@@ -76,7 +82,7 @@ footer p {
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
   backface-visibility: hidden;
-
+ 
 }
  
 .cartao__conteudo__resposta {
