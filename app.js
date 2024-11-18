@@ -3,15 +3,25 @@
     let cartao = document.createElement('article')
     cartao.className = ('cartao')
 
-    cartao.innerHTML =   <div class="cartao__conteudo">
-               <h3>progamação</h3>
-                 <div class="cartao__conteudo__pergunta">
-                  <p> python?</p>
-                 </div>
-               <div class="cartao__conteudo__pergunta">
-            <p> O javaScript é uma linguaguem de progamação.</p>
-           </div>
+    cartao.innerHTML = 
+        <div class="cartao__conteudo">
+          <h3>$(categoria)</h3>
+          <div class="cartao__conteudo__pergunta">
+          <p> %(pergunta)</p>
+          </div>
+         <div class="cartao__conteudo__pergunta">
+         <p> $(resposta)</p>
+          </div>
          </div>
 
+    let respostaEstavisível = false 
+ 
+    function viracartao(){
+        respostaEstavisível = IrespostaEstavisível
+        cartao.classList.toggle('active', respostaEstavisível)
+    }
+    cartao.addEventListener('click', viraCartao)
+
          container.appendChild(cartao)
+
     }
