@@ -23,6 +23,18 @@
       criaCartao{
         'Geografia'
     'Qual a capital do Paraná?'
-    'A capital da França é Curitiba'
+    'A capital do parana é Curitiba'
+    }
+
+    criaCartao{
+        'Geografia'
+    'Qual a cidade que fica balneario camboriu  ?'
+    'A cidade fica em santa catarina'
+    }
+
+     criaCartao{
+        'Geografia'
+    'Qual a cidade com mais população ?'
+    'A cidade de tóquio'
     }
         
